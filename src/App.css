@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background: linear-gradient(-45deg, #23d5ab, #23a6d5, #e73c7e, #ee7752);
+  padding: 15px;
 }
 
 .App-logo {
@@ -35,4 +37,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.text-title {
+  background-color: #61dafb;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 50px;
+  border: 1px solid black;
+  box-shadow: 0px 10px 10px;
+}
+
+.blockUser {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  width: 50%;
+  /*margin-left: 25%;*/
+  border-radius: 10%;
+  border: 1px solid black;
+  /*margin-top: 30px;*/
+  margin: 20px 0 20px 25%;
+  box-shadow: 0px 10px 10px;
+}
+
+img {
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 0px 3px 3px;
 }
