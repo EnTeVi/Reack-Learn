@@ -1,5 +1,10 @@
+
+
 .App {
   text-align: center;
+  background-color: cornflowerblue;
+  padding: 15px;
+  background: linear-gradient(-90deg, #00fd77, #c04be8, #00fd77, #c04be8);
 }
 
 .App-logo {
@@ -35,4 +40,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  background-color: violet;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 25%;
+  animation: pulse 5s infinite;
+}
+
+h3 {
+  text-shadow: 3px 3px 10px;
+  font-size: 200%;
+}
+
+p {
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: blue;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+.boxUser {
+  width: 50%;
+  border-radius: 30px;
+  border: 1px solid black;
+  background: linear-gradient(-45deg, blue, yellow, blue, yellow, blue, yellow);
+  margin: 20px 0 20px 25%;
 }
