@@ -1,5 +1,5 @@
 import './App.css';
-import SimpsonsX from "./components/simpsons/simpsonsUser";
+import SimpsonsX from "./components/simpsons/SimpsonsUser";
 
 function App() {
   return (
