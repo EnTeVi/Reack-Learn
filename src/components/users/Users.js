@@ -26,9 +26,10 @@ export default function Users() {
 
 
     return (<div>
-        <div>
-            <div>
-                <div><h3>{user?.id} {user?.name}</h3></div>
+        <div className='nameOfUser'>
+            <div className='boxNameOfUser'>
+                <div><h3>{user?.id}</h3></div>
+                <div><h3> {user?.name}</h3></div>
                 <div><h3>{user?.username}</h3></div>
                 <div><h3>{user?.email}</h3></div>
                 <div><h3>{user?.phone}</h3></div>

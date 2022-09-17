@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to left, #70a321, #7ab31f, #83c31d, #8dd318, #97e412, #a5e70b, #b3ea05, #c1ed00, #d2e300, #e0d800, #ecce00, #f6c310);
 }
 
 .App-logo {
@@ -24,6 +25,20 @@
   color: white;
 }
 
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: radial-gradient(circle, #7dd61a, #84dd18, #8be415, #93eb11, #9af20b, #97f308, #95f506, #92f604, #84f208, #76ee0d, #66e912, #55e516);
+  border-radius: 100px;
+}
+
+h1 {
+  font-size: 60px;
+  text-shadow: 3px 6px 10px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -37,15 +52,44 @@
   }
 }
 
+.nameOfUser h3 {
+  font-size: 30px;
+}
+
+.nameOfUser {
+  width: 50%;
+  height: 450px;
+  margin: 30px 0 30px 25%;
+  background-image: radial-gradient(circle, #99f20c, #8bf403, #7bf600, #68f700, #4ff900, #59f800, #62f700, #6af600, #8af200, #a2ee00, #b7e900, #c8e507);
+  border-radius: 30px;
+  border: 1px solid black;
+
+}
+
+.boxNameOfUser {
+  width: 50%;
+  height: 400px;
+  display: table;
+  vertical-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .but {
   width: 200px;
   height: 50px;
-  background-color: violet;
+  background-image: radial-gradient(circle, #81e314, #88de22, #8ed92c, #93d434, #97cf3c, #97cf42, #97ce48, #97ce4d, #94d253, #90d659, #8dda5f, #89de65);
   border-radius: 30px;
   border: 1px solid black;
   box-shadow: 1px 5px 5px;
   margin: 20px 0 20px 0;
+  font-size: 15px;
+}
+
+.but:hover {
+  font-size: 20px;
+  background-image: radial-gradient(circle, #9fe551, #8be561, #76e571, #60e380, #47e28e, #3ae38d, #28e38b, #00e48a, #0ee676, #26e75f, #3be942, #50e90f);
 }
 
 
@@ -64,7 +108,7 @@
 .boxUsers {
   width: 50%;
   height: auto;
-  background-color: #61dafb;
+  background-image: radial-gradient(circle, #61a614, #65a615, #68a515, #6ca516, #6fa417, #6ea51b, #6ea51e, #6da621, #69a826, #64aa2c, #5fac31, #5aae36);
   border-radius: 30px;
   border: 1px solid black;
   box-shadow: 1px 5px 5px;

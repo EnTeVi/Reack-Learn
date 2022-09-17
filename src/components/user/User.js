@@ -5,6 +5,6 @@ export default function User(props) {
         <div className = 'boxUsers'><h3>{user.id}. {user.name}</h3></div>
         <button className = 'but' onClick = { () => {
             lift(user);
-        }}>Розгорнути</button>
+        }}>Детальніше</button>
     </div>)
 }
