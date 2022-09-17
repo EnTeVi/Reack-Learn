@@ -1,4 +1,6 @@
+
 .App {
+  padding-bottom: 20px;
   text-align: center;
   background-image: linear-gradient(to left, #70a321, #7ab31f, #83c31d, #8dd318, #97e412, #a5e70b, #b3ea05, #c1ed00, #d2e300, #e0d800, #ecce00, #f6c310);
 }
@@ -28,8 +30,9 @@
 .header {
   width: 100%;
   height: 100px;
+  margin-top: -40px;
   background-image: radial-gradient(circle, #7dd61a, #84dd18, #8be415, #93eb11, #9af20b, #97f308, #95f506, #92f604, #84f208, #76ee0d, #66e912, #55e516);
-  border-radius: 100px;
+
 }
 
 h1 {
@@ -57,9 +60,10 @@ h1 {
 }
 
 .nameOfUser {
-  width: 50%;
-  height: 450px;
-  margin: 30px 0 30px 25%;
+  position: fixed;
+  width: 20%;
+  height: auto;
+  margin: 200px 0 0 2.5%;
   background-image: radial-gradient(circle, #99f20c, #8bf403, #7bf600, #68f700, #4ff900, #59f800, #62f700, #6af600, #8af200, #a2ee00, #b7e900, #c8e507);
   border-radius: 30px;
   border: 1px solid black;
@@ -113,4 +117,19 @@ h1 {
   border: 1px solid black;
   box-shadow: 1px 5px 5px;
   margin: 20px 0 20px 25%;
+}
+
+
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .nameOfUser h3 {
+
+    font-size: 20px;
+  }
+
+  .nameOfUser {
+    margin-top: 40px;
+  }
 }
