@@ -1,3 +1,6 @@
+body {
+  background-image: linear-gradient(to right top, #190792, #01259d, #0038a7, #0049ae, #0059b4, #0063b9, #006dbd, #0077c0, #007fc5, #0086c9, #008ecd, #0c95d1);}
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header {
+  width: 100%;
+  height: 100px;
+  background-image: radial-gradient(circle, #08b77a, #00bd87, #00c293, #00c8a0, #03cdac, #00c5be, #00bcca, #00b2cf, #0095d5, #0074d8, #004ecd, #2b10ac);  border-radius: 100px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 70px;
+  text-shadow: 5px 10px 12px;
+  word-spacing: 30px;
+  letter-spacing: 8px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.blockUsers {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxUsers {
+  width: 18%;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  border: 1px solid black;
+  margin: 1%;
+  background-image: radial-gradient(circle, #0fe1d8, #00e2d0, #00e2c6, #00e2bc, #00e2b1, #04dda9, #0ad9a0, #10d498, #10ca91, #10c08a, #10b683, #10ac7c);
+  border: 1px solid black;
+}
+
+
+
+img {
+  width: 50%;
 }
