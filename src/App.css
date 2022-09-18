@@ -59,7 +59,6 @@ h3 {
 
 .blockUsers {
   width: 100%;
-  height: auto;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +72,12 @@ h3 {
   border: 1px solid black;
   margin: 1%;
   background-image: radial-gradient(circle, #0fe1d8, #00e2d0, #00e2c6, #00e2bc, #00e2b1, #04dda9, #0ad9a0, #10d498, #10ca91, #10c08a, #10b683, #10ac7c);
-  border: 1px solid black;
+
+}
+
+.boxUsers:hover {
+  background-image: none;
+  box-shadow: 0px 15px 10px;
 }
 
 
