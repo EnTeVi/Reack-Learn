@@ -5,6 +5,7 @@
 // інфомацію про користувача(довільно обрану інформацію)
 
 import {useEffect, useState} from "react";
+
 import User from '../user/User';
 
 export default function Users() {
@@ -29,14 +30,14 @@ export default function Users() {
         <div className='nameOfUser'>
             <div className='boxNameOfUser'>
                 <div><h3>{user?.id}</h3></div>
-                <div><h3> {user?.name}</h3></div>
+                <div><h3>{user?.name}</h3></div>
                 <div><h3>{user?.username}</h3></div>
                 <div><h3>{user?.email}</h3></div>
                 <div><h3>{user?.phone}</h3></div>
                 <div><h3>{user?.website}</h3></div>
             </div>
         </div>
-        <div className = 'contInUsers'>{users.map(user => (<User item={user} key={user.id} lift={lift}/>))}</div>
+        <div className='contInUsers'>{users.map(user => (<User item={user} key={user.id} lift={lift}/>))}</div>
     </div>)
 
 

@@ -1,4 +1,3 @@
-
 .App {
   padding-bottom: 20px;
   text-align: center;
@@ -27,6 +26,21 @@
   color: white;
 }
 
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 .header {
   width: 100%;
   height: 100px;
@@ -42,19 +56,6 @@ h1 {
   letter-spacing: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .nameOfUser h3 {
   font-size: 30px;
 }
@@ -67,7 +68,7 @@ h1 {
   background-image: radial-gradient(circle, #99f20c, #8bf403, #7bf600, #68f700, #4ff900, #59f800, #62f700, #6af600, #8af200, #a2ee00, #b7e900, #c8e507);
   border-radius: 30px;
   border: 1px solid black;
-
+  box-shadow: 0px 15px 20px 10px;
 }
 
 .boxNameOfUser {
@@ -96,22 +97,17 @@ h1 {
   background-image: radial-gradient(circle, #9fe551, #8be561, #76e571, #60e380, #47e28e, #3ae38d, #28e38b, #00e48a, #0ee676, #26e75f, #3be942, #50e90f);
 }
 
-
-
 .blockUsers {
   width: 50%;
   height: auto;
   border: 1px solid black;
   margin: 20px 0 20px 25%;
   border-radius: 30px;
-
   box-sizing: border-box;
-
 }
 
 .boxUsers {
   width: 50%;
-  height: auto;
   background-image: radial-gradient(circle, #61a614, #65a615, #68a515, #6ca516, #6fa417, #6ea51b, #6ea51e, #6da621, #69a826, #64aa2c, #5fac31, #5aae36);
   border-radius: 30px;
   border: 1px solid black;
@@ -125,7 +121,6 @@ h1 {
 
 @media screen and (min-width: 1000px) and (max-width: 1800px) {
   .nameOfUser h3 {
-
     font-size: 20px;
   }
 
