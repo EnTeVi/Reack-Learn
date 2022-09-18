@@ -6,6 +6,7 @@
 
 import {useEffect, useState} from "react";
 import User from '../user/User';
+import {getUsersAxios, getUserAxios} from "../services/user.service.api.axios";
 
 export default function Users() {
     let [users, setUsers] = useState([]);
@@ -16,11 +17,7 @@ export default function Users() {
     }
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(value => value.json())
-            .then(value => {
-                setUsers(value);
-            });
+        getUsersAxios().then(value => setUsers(value.data))
     }, []);
 
 
