@@ -15,9 +15,9 @@ export default function User (props) {
         })
         console.log("load posts",user.id)
     }
-    return (<div>
+    return (<div className='container'>
         <div><h3>{user.id}. {user.name}</h3></div>
-        <div><button onClick={loadPosts}>Детальніше</button></div>
+        <div><button className='but' onClick={loadPosts}>Детальніше</button></div>
         <div>{posts.map(post => (<Post itemP={post} key={post.id}/>))
         }</div>
 
