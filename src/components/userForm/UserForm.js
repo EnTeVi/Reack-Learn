@@ -13,13 +13,12 @@ const UserForm = ({setUsers}) => {
 
     return (
         <form className='containetForm' onSubmit={handleSubmit(submit)}>
-            <input className='boxInput' type="text" placeholder='name' {...register('name', {require: {value: true, message: 'Error'}})}/>
+            <input className='boxInput' type="text" placeholder='your comment' {...register('comment', {require: {value: true, message: 'Error'}})}/>
             {
                 errors.name && <span>{errors.name.message}</span>
             }
-            <input className='boxInput' type="text" placeholder='surname' {...register('surname')}/>
-            <input className='boxInput' type="text" placeholder='email' {...register('email')}/>
-            <button className='button'>Click</button>
+
+            <button className='button'>Yes</button>
         </form>
     )
 }

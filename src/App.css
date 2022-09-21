@@ -80,4 +80,5 @@
 }
 
 .button:hover {
+  font-weight: bold;
   background-image: radial-gradient(circle, #b92ec0, #b02abd, #a725ba, #9d21b6, #941db3, #9419ab, #9414a3, #93109b, #970f8d, #991480, #991b74, #972269);}
