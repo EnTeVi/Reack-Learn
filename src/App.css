@@ -1,5 +1,11 @@
+body {
+  background-image: radial-gradient(circle, #dff215, #d7e715, #cfdd16, #c7d216, #bfc816, #bbc715, #b8c615, #b4c514, #b4cc14, #b3d415, #b2db17, #b0e31a);
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .App-logo {
@@ -37,47 +43,46 @@
   }
 }
 
-.App {
-  margin-bottom: -20px;
-  padding-top: 150px;
-  background-image: linear-gradient(to right top, #dc05d3, #c934d9, #b748dd, #a556df, #9360de, #7f6fe5, #6b7bea, #5886eb, #3d98f1, #2ea9f2, #39b8f0, #54c5ec);
-}
-
-.boxUsers {
-  background-image: linear-gradient(to bottom, #f164f8, #e96bf6, #e271f3, #db76f0, #d47bec, #d27ce3, #cf7cda, #cc7dd2, #ca7bc4, #c579b6, #c078aa, #b9779f);  width: 50%;
+.cats, .dogs {
+  width: 25%;
+  background-image: linear-gradient(to right top, #9ce141, #93da3a, #8ad233, #81cb2b, #78c423, #75be1d, #72b718, #6fb111, #70aa0e, #71a20d, #719b0c, #71940c);
   border: 1px solid black;
-  border-radius: 30px;
-  margin: 0px 0 15px 25%;
-
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Algeria sans-serif;
 }
 
-.containetForm {
-  background-image: radial-gradient(circle, #e511dc, #d22fe2, #be3fe7, #a94aea, #9353ec, #9053eb, #8e54eb, #8b54ea, #9b4ee8, #a946e5, #b83de1, #c531dc);  width: 50%;
-  border: 1px solid black;
-  border-radius: 30px;
-  margin: 0 0 15px 25%;
-  height: 100px;
-  position: fixed;
-  margin-top: -150px;
+.enterName {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
-.boxInput {
-  background-image: linear-gradient(to right, #d1e3ba, #b2e2c3, #95dfd3, #82d8e5, #84cff3, #94caf9, #a8c4fa, #bebdf6, #cfbcf4, #e0bbef, #eebae9, #fbbae2);
-  height: 40px;
-  margin: 25px 10px;
-  border-radius: 30px;
-  font-weight: 700;
+input {
+  border-radius: 10px;
+  box-shadow: 0 5px 5px;
+  margin-left: 10px;
 }
 
-.boxInput:focus {
-  background-image: linear-gradient(to left, #f4eb94, #f1e391, #eeda8e, #ead28b, #e6ca89, #ecc288, #f0ba89, #f3b38b, #fcaa97, #ffa3a7, #fb9fbb, #ee9fcf);}
-
-.button {
-  width: 50px;
-  height: 50px;
-  background-image: linear-gradient(to bottom, #f164f8, #e96bf6, #e271f3, #db76f0, #d47bec, #d27ce3, #cf7cda, #cc7dd2, #ca7bc4, #c579b6, #c078aa, #b9779f);  border-radius: 50%;
-
+button {
+  border-radius: 10px;
+  box-shadow: 0 5px 5px;
+  background-color: #61dafb;
+  margin-left: 10px;
 }
 
-.button:hover {
-  background-image: radial-gradient(circle, #b92ec0, #b02abd, #a725ba, #9d21b6, #941db3, #9419ab, #9414a3, #93109b, #970f8d, #991480, #991b74, #972269);}
+button:hover {
+  background-color: red;
+}
+
+.nameAlimal {
+  width: 50%;
+  background-color: #61dafb;
+  margin-left: 25%;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #dff215, #d7e715, #cfdd16, #c7d216, #bfc816, #bbc715, #b8c615, #b4c514, #b4cc14, #b3d415, #b2db17, #b0e31a);
+}
