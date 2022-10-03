@@ -1,4 +1,4 @@
-const reducerDog = (state, action) => {
+const reducerDogs = (state, action) => {
     const  {type, payload} = action;
 
     switch (type) {
@@ -15,4 +15,4 @@ const reducerDog = (state, action) => {
 
 
 
-export default reducerDog;
+export default reducerDogs;

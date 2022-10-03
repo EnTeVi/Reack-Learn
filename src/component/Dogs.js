@@ -1,11 +1,11 @@
 import {useReducer, useRef} from "react";
 
-import reducerDog from '../reducers/reducer.dog'
+import reducerDogs from '../reducers/reducer.dogs'
 
 
 function Dogs() {
 
-    const [state, dispatch] = useReducer(reducerDog, {dogs: []});
+    const [state, dispatch] = useReducer(reducerDogs, {dogs: []});
 
     const dogInput = useRef();
 
