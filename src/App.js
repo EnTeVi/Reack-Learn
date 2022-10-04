@@ -1,12 +1,14 @@
 import './App.css';
-import {Users} from "./components";
+import {Users, Posts, Comments} from "./Components";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Users/>
+        <Users/>
+        <Posts/>
+        <Comments/>
     </div>
   );
 }
