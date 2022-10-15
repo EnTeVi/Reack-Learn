@@ -1,14 +1,15 @@
 import './App.css';
-import {Users} from "./components";
-
-
+import {CarForm, Cars} from "./components";
 
 function App() {
-  return (
-    <div className="App">
-      <Users/>
-    </div>
-  );
+
+
+    return (
+        <div>
+            <CarForm/>
+            <hr/>
+            <Cars/>
+        </div>);
 }
 
 export default App;
